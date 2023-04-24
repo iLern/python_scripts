@@ -13,6 +13,9 @@ positional arguments:
 options:
   -h, --help  show this help message and exit
   -o Target   out put file path (defalut: ./a.pdf)
+  
+notice:
+  The watermark pdf is a pdf file that only contains a watermark you want which you can create in MS Word or other editors.
 """
 
 def add_watermark(pdf_file_in, pdf_file_mark, pdf_file_out) -> None:
