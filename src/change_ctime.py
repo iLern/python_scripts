@@ -5,6 +5,8 @@ import re
 This script is used to modify the creation date of all files 
 in this directory and its subdirectories 
 to the date represented by their file name.
+
+NOTICE: command `setfile` only work on MacOS
 """
 
 # Define a regular expression pattern to match the filename format "YYYY-M-D"
